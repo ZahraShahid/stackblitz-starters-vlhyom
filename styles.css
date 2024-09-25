@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  color: black;
+  background-color: white;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  background-color: gray;
+  gap: 5px;
+}
+
+.container .box {
+  background-color: cornflowerblue;
+  border-radius: 5px;
+  min-width: 200px;
+  height: 200px;
+  text-align: center;
+  line-height: 200px;
+  flex: 1;
+}
